@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shoe Store</title>
+  <style>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header a:hover {
+  color: #ec3f3f;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+.shoe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.shoe img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.shoe h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.shoe p {
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  text-align: center;
+  width: 150px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #ec3f3f;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+  <div class="bubble"></div>
+
+  <header>
+    <h1>Shoe Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#new-arrivals">New Arrivals</a></li>
+        <li><a href="#on-sale">On Sale</a></li>
+        <li><a href="webwebcart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="featured">
+    <h2>Featured Shoes</h2>
+    <div class="shoe-grid">
+      <div class="shoe">
+        <img src=https://images.solecollector.com/complex/images/c_crop,h_1087,w_1932,x_34,y_558/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/bk5gufrtd8qyekvujg5x/air-jordan-12-retro-womens-hyper-royal-ao6068-004-pair alt="Shoe 1">
+        <h3>Shoe 1</h3>
+        <p>$100</p>
+        <button class="button">Add to Cart</button>
+      </div>
+      <div class="shoe">
+        <img src=https://images.solecollector.com/complex/images/c_crop,h_1087,w_1932,x_34,y_558/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/bk5gufrtd8qyekvujg5x/air-jordan-12-retro-womens-hyper-royal-ao6068-004-pair alt="Shoe 2">
+        <h3>Shoe 2</h3>
+        <p>$120</p>
+        <button class="button">Add to Cart</button>
+      </div>
+      <div class="shoe">
+        <img src=https://images.solecollector.com/complex/images/c_crop,h_1087,w_1932,x_34,y_558/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/bk5gufrtd8qyekvujg5x/air-jordan-12-retro-womens-hyper-royal-ao6068-004-pair alt="Shoe 3">
+        <h3>Shoe 3</h3>
+        <p>$90</p>
+        <button class="button">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+</RVD2006>
+  <section id="new-arrivals">
+    <h2>New Arrivals</h2>
+    <div class="shoe-grid">
+      <div class="shoe">
+        <img src=https://images.solecollector.com/complex/images/c_crop,h_1087,w_1932,x_34,y_558/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/bk5gufrtd8qyekvujg5x/air-jordan-12-retro-womens-hyper-royal-ao6068-004-pair alt="Shoe 4">
+        <h3>Shoe 4</h3>
+        <p>$150</p>
+        <button class="button">Add to Cart</button>
+      </div>
+      <div class="shoe">
+        <img src=https://images.solecollector.com/complex/images/c_crop,h_1087,w_1932,x_34,y_558/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/bk5gufrtd8qyekvujg5x/air-jordan-12-retro-womens-hyper-royal-ao6068-004-pair alt="Shoe 5">
+        <h3>Shoe 5</h3>
+        <p>$110</p>
+        <button class="button">Add to Cart</button>
+      </div>
+      <div class="shoe">
+        <img src=https://images.solecollector.com/complex/images/c_crop,h_1087,w_1932,x_34,y_558/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/bk5gufrtd8qyekvujg5x/air-jordan-12-retro-womens-hyper-royal-ao6068-004-pair alt="Shoe 6">
+        <h3>Shoe 6</h3>
+        <p>$95</p>
+        <button class="button">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+<RVD2006>
+  <section id="on-sale">
+    <h2>On Sale</h2>
+    <div class="shoe-grid">
+        <div class="shoe">
+            <img src=https://images.solecollector.com/complex/images/c_crop,h_1087,w_1932,x_34,y_558/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/bk5gufrtd8qyekvujg5x/air-jordan-12-retro-womens-hyper-royal-ao6068-004-pair alt="Shoe 3">
+            <h3>Shoe 7</h3>
+        <p>$75</p>
+       
+        <button class="button">Add to Cart</button>
+      </div>
+      <div class="shoe">
+        <img src=https://images.solecollector.com/complex/images/c_crop,h_1087,w_1932,x_34,y_558/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/bk5gufrtd8qyekvujg5x/air-jordan-12-retro-womens-hyper-royal-ao6068-004-pair alt="Shoe 8">
+        <h3>Shoe 8</h3>
+        <p>$85</p>
+        <button class="button">Add to Cart</button>
+      </div>
+      <div class="shoe">
+        <img src=https://images.solecollector.com/complex/images/c_crop,h_1087,w_1932,x_34,y_558/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/bk5gufrtd8qyekvujg5x/air-jordan-12-retro-womens-hyper-royal-ao6068-004-pair alt="Shoe 9">
+        <h3>Shoe 9</h3>
+        <p>$65</p>
+        <button class="button">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+</div>
+</div>
+</section>
+
+  <footer>
+    <p>&copy; Webpage by @Rivadillo</p>
+  </footer>
+
+  <script>const buttons = document.querySelectorAll('.button');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', function() {
+        alert('Item added to cart!');
+      });
+    });
+    </script>
+</body>
+</html>
